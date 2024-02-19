@@ -13,7 +13,7 @@ public class FileWriterService {
         try {
             path = Constants.BASE_PATH_OUT + fileName;
 
-            FileOutputStream fileOutputStream = new FileOutputStream(path);
+            FileOutputStream fileOutputStream = new FileOutputStream(path,true);
 
             byte[] somebytes = myText.getBytes();
             fileOutputStream.flush();

@@ -19,7 +19,7 @@ public class MainProgram {
         } else if ( choose.equals("2") ){
             FileWriterService writerService = new FileWriterService();
             System.out.println("Введіть свій текст");
-            String myText = scanner.nextLine();
+            String myText = scanner.nextLine() + "\r\n";
             writerService.fileWriterMethod(fileName, myText);
         } else {
             System.out.println("wrong input");
