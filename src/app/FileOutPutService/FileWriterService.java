@@ -25,6 +25,6 @@ public class FileWriterService {
             System.out.println("Exception" + e.getMessage());
             System.exit(0);
         }
-        System.out.println("Файл Information створено,інформацію записано. ");
+        System.out.println("Файл Information створено,інформацію записано.");
     }
 }
